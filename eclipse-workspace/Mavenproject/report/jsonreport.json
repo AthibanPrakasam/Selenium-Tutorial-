@@ -1,0 +1,78 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Google search scenario",
+        "description": "",
+        "id": "this-is-to-test-google-search;google-search-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "user is entering google.co.in",
+            "match": {
+              "location": "OpenGoogleDefinitions.user_is_entering_google_co_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user is typing the search term \"Agniprasath\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Agniprasath",
+                  "offset": 32
+                }
+              ],
+              "location": "OpenGoogleDefinitions.user_is_typing_the_search_term(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "enters the return key",
+            "match": {
+              "location": "OpenGoogleDefinitions.enters_the_return_key()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the user should see the search results",
+            "match": {
+              "location": "OpenGoogleDefinitions.the_user_should_see_the_search_results()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This is to test google search",
+    "description": "",
+    "id": "this-is-to-test-google-search",
+    "keyword": "Feature",
+    "uri": "featurefiles/OpenGoogle.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@searchgoogle"
+      }
+    ]
+  }
+]
