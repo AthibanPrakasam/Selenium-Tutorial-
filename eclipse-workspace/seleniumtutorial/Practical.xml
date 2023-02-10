@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Suite name ="testng practise" verbose="2">
+<test name = "testnglearning">
+
+<classes>
+
+
+<class name="Testng.Tutorialtestng"></class>
+
+
+
+</classes>
+
+
+
+
+
+
+</test>
+
+
+
+</Suite>
