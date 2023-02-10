@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/ticvictech/Downloads/eclipse-jee-2022-09-R-linux-gtk-x86_64/jar/mysql-connector-java-8.0.28.jar"/>
+	<classpathentry kind="lib" path="/home/ticvictech/Downloads/eclipse-jee-2022-09-R-linux-gtk-x86_64/jar/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="/home/ticvictech/Downloads/eclipse-jee-2022-09-R-linux-gtk-x86_64/jar/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
